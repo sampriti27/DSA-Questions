@@ -11,9 +11,8 @@ int countNodesinLoop(struct Node *head)
       {
           slow=slow->next;
           while(slow!=fast)
-          {    count++;
-              slow=slow->next;
-            
+          {   
+            // plese help me out of this
           }
           return count;
       }
